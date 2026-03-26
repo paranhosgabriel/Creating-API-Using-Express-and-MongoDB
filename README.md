@@ -8,25 +8,6 @@ MongoDB + Mongoose
 
 dotenv (environment variables)
 
-📁 Project Structure
-text
-src/
-├── config/
-│   └── dbConnect.js       # MongoDB connection
-├── controllers/
-│   ├── livroController.js  # Books logic
-│   └── autorController.js  # Authors logic
-├── models/
-│   ├── Livro.js            # Book schema
-│   └── Autor.js            # Author schema
-├── routes/
-│   ├── livroRoutes.js      # Books routes
-│   └── autorRoutes.js      # Authors routes
-└── app.js                  # Express configuration
-server.js                   # Server initialization
-.env                        # Environment variables
-🧩 Features
-📖 Books
 Method	Endpoint	Description
 GET	/livros	List all books
 GET	/livros/editora?editora={name}	Search books by publisher
